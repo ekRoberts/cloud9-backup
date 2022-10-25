@@ -1,0 +1,139 @@
+
+
+.navbar{
+    background-color: #39553F !important;
+    justify-content: space-between;
+}
+
+.logo{
+    transform: rotate(315deg);
+}
+
+.navbar-brand{
+    color: #FFF8E7 !important;
+    font-family: Lucida;
+    font-size: 50px;
+}
+
+.nav-link {
+    color: #FFF8E7 !important;
+    font-family: Lucida;
+    font-size: 30px;
+}
+
+.nav-item active{
+    color: #C67F43 !important;
+    font-family: Lucida;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.container{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    
+}
+
+.image{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.suggestions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 150px;           
+    align-items: center;
+    align-content: center;
+}
+
+
+.addimages{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.simage{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.title{
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.blurb{
+    font-size: 125%;
+    text-align: center;
+    width: 50%;
+    
+}
+
+.size{
+    width: 70px;
+    height: 35px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: white;
+}
+
+.cart{
+    width: 200px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.text{
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+.prices{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.priceText{
+    width: 33%;
+    text-align: center;
+}
+
+.priceTextpoppies{
+    width: 33%;
+    text-align: center;
+}

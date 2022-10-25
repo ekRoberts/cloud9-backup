@@ -1,0 +1,208 @@
+.navbar{
+    background-color: black !important;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-family: Tahoma;
+    font-weight: bold; 
+    
+}
+
+.navbar-toggler{
+    background-color: white !important;
+}
+
+.nav-link {
+    color: white!important;
+    font-family: Tahoma;
+    font-weight: bold; 
+}
+
+.nav-item active{
+    color: #C67F43 !important;
+    font-family: Tahoma;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+}
+
+.logo{
+    width: 100%;
+    
+    
+}
+
+.logoImage{
+    max-width:100%;
+    object-fit: fill;
+}
+
+.description{
+    font-size: 15px;
+    font-family: Tahoma;
+    font-weight: bold;
+    width: 80%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.cart{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.shopNow{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+}
+
+.title{
+    font-size: 25px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.shopLinks{
+   display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemLink{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.linkTitle{
+    font-size: 15px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.productPicture{
+    width: 200px;
+    height: 250px;
+    object-fit: fill;
+    align-items: center;
+}
+
+.titleBest{
+    font-size: 25px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tote, .sticker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.productPicture{
+    width: 200px;
+    height: 250px;
+    object-fit: fill;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+ul{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-align: center
+}
+
+@media only screen and (min-width: 961px) {
+    .description{
+    font-size: 25px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+  .shopLinks, .products{
+    display: flex;
+    flex-direction: row;
+    }
+    
+    .itemLink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+    .logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.logoImage{
+    max-width:60%;
+    object-fit: fill;
+}
+
+.bestsellers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.tote, .sticker{
+    margin: 100px;
+}
+
+.linkTitle{
+    font-size: 25px;
+    text-align: center;
+}
+}

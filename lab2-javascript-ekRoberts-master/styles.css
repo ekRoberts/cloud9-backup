@@ -1,0 +1,72 @@
+html{
+      background-color: #B5C8F9;  
+}
+body{
+    min-height: 100%;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #B5C8F9;
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: #4579FB;
+    height: 40%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Georgia;
+    color: white;
+}
+
+.title{
+    padding: 15px;
+    font-size: 30px;
+}
+
+.lab{
+    font-size: 20px;
+}
+
+#weatherResults{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: Verdana;
+    width: 35%;
+    margin-bottom: 30px;
+}
+
+td{
+    padding: 15px;
+    font-size: 10px;
+}
+
+.weatherTable{
+    font-family: Verdana;
+    text-align: center;
+    
+
+}
+
+.footer{
+    color: white;
+    font-size: 30px;
+    font-family: Verdana;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #4579FB;
+}

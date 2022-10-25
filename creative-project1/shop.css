@@ -1,0 +1,182 @@
+.navbar{
+    background-color: black !important;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-family: Tahoma;
+    font-weight: bold; 
+    
+}
+
+.navbar-toggler{
+    background-color: white !important;
+}
+
+.nav-link {
+    color: white!important;
+    font-family: Tahoma;
+    font-weight: bold; 
+}
+
+.nav-item active{
+    color: #C67F43 !important;
+    font-family: Tahoma;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+}
+
+.title{
+    font-size: 25px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.shopLinks{
+   display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+}
+
+.toteLinks{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+}
+
+.itemLink{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.linkTitle{
+    font-size: 15px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.linktitle{
+    font-size: 15px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.productPicture{
+    width: 200px;
+    height: 250px;
+    object-fit: fill;
+    align-items: center;
+}
+
+.LemonGroup{
+    width: 200px;
+    height: 150px;
+    object-fit: fill;
+    align-items: center;
+}
+
+.Lemon{
+    width: 150px;
+    height: 100px;
+}
+
+.StrawberryGroup{
+    width: 300px;
+    height: 200px;
+}
+
+.Pear{
+    width: 150px;
+    height: 200px;
+}
+
+.Peach{
+    width: 150px;
+    height: 150px;
+}
+
+.Watermelon{
+    width: 200px;
+    height: 150px;
+}
+
+.Blueberries{
+    width: 200px;
+    height: 150px;
+}
+
+.cart{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+ul{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-align: center
+}
+
+@media only screen and (min-width: 961px) {
+    .shopLinks{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .toteLinks{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    
+    
+.itemLink{
+    width: 30%;
+}
+
+.linktitle{
+    font-size: 30px;
+}
+
+.productPicture{
+    width: 400px;
+    height: 450px;
+    object-fit: fill;
+    align-items: center;
+}
+}

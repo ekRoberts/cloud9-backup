@@ -1,0 +1,94 @@
+.navbar{
+    background-color: black !important;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-family: Tahoma;
+    font-weight: bold; 
+    
+}
+
+.navbar-toggler{
+    background-color: white !important;
+}
+
+.nav-link {
+    color: white!important;
+    font-family: Tahoma;
+    font-weight: bold; 
+}
+
+.nav-item active{
+    color: #C67F43 !important;
+    font-family: Tahoma;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.FAQTitle{
+    font-size: 25px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.question{
+    font-size: 15px;
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+.answer{
+    font-size: 15px;
+    font-family: Tahoma;
+}
+
+.logo{
+    width: 100%;
+}
+
+.logoImage{
+    max-width:100%;
+    object-fit: fill;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+ul{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-align: center
+}
+
+@media only screen and (min-width: 961px) {
+    .questions{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .question, .answer{
+        font-size: 20px;
+        text-align: left
+    }
+    
+    .logo{
+    width: 50%;
+}
+
+}
